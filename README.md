@@ -26,7 +26,7 @@ https://youcefdzdz.github.io/HadEncrypt/
 - `index.html` → Main webpage.
 - `styles.css` → Styling and UI design.
 - `script.js` → Logic for encryption and decryption.
-- `favicon.png` → Website icon.
+- `HadEncrypt.webp` → Website icon.
 
 ## 🛠️ How to Install Locally:
 1. **Clone the repository:**
