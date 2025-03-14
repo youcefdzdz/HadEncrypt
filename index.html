@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HadEncrypt - Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="HadEncrypt.webp">
+</head>
+<body>
+    <header>
+        <h1>HadEncrypt - Web |  Cef</h1>
+        <button id="darkModeToggle">🌙</button>
+    </header>
+    <div class="container">
+        <h2>أداة التشفير وفك التشفير</h2>
+        <div class="mode-switch">
+            <label><input type="radio" name="mode" value="encrypt" checked> تشفير</label>
+            <span class="arrow" onclick="toggleMode()">⇄</span>
+            <label><input type="radio" name="mode" value="decrypt"> فك التشفير</label>
+        </div>
+        <input type="text" id="keyInput" placeholder="0000" maxlength="4" pattern="\d{4}">
+        <div class="textareas">
+            <textarea id="inputText" placeholder="أدخل النص هنا..."></textarea>
+            <textarea id="resultText" readonly placeholder="النتيجة هنا..."></textarea>
+        </div>
+        <button id="processButton">Ylaa Bina</button>
+        <button id="copyButton">📋 copy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
